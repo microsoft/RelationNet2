@@ -2,7 +2,7 @@
 
 Coming soon!
 
-## Citing RepPoints
+## Citing RelationNet++
 
 ```
 @inproceedings{relationnetplusplus2020,
