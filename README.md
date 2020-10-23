@@ -6,7 +6,7 @@ Coming soon!
 
 ```
 @inproceedings{relationnetplusplus2020,
-  title={RelationNet++: Bridging Visual Representations via Attention Mechanism for Object Detection},
+  title={RelationNet++: Bridging Visual Representations for Object Detection via Transformer Decoder},
   author={Chi, Cheng and Wei, Fangyun and Hu, Han},
   booktitle={NeurIPS},
   year={2020}
