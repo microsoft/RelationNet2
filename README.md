@@ -1,4 +1,4 @@
-# RelationNet++: Bridging Visual Representations via Attention Mechanism for Object Detection
+# RelationNet++: Bridging Visual Representations for Object Detection via Transformer Decoder
 
 Coming soon!
 
