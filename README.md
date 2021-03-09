@@ -36,6 +36,7 @@ where `selected_config` is one of provided script under the `config/bvr` folder.
 ```shell
 bash tools/dist_train.sh ${selected_config} 8
 ```
+where `selected_config` is one of provided script under the `config/bvr` folder.
 - ### For more dataset
 We have not trained or tested on other dataset. If you would like to use it on other data, please refer to [mmdetection](https://github.com/open-mmlab/mmdetection/blob/master/docs/1_exist_data_model.md).
 ## Citing RelationNet++
