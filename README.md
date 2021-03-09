@@ -20,13 +20,14 @@ similar as that in Transformer to bridge other representations into a typical ob
 |[fcos_bvr_x101_dcn](configs/bvr/fcos_x101_dcn_fpn_relation_coco_2x.py)|0.487| 0.680| 0.529|[Google](https://drive.google.com/file/d/1IT1YBnNLrGQs-Be_drfF2ntEq4OjtCaO/view?usp=sharing)|
 |[atss_bvr_x101_dcn](configs/bvr/atss_x101_dcn_fpn_relation_coco_2x.py)|0.506 |0.695| 0.553|[Google](https://drive.google.com/file/d/16kTxTPGIN4O4wFHKhJMdFP_rlZ7eXde9/view?usp=sharing)|
 ## How to use it
-### Install it
+- ### Install it
 ```shell
-bash install.sh
+bash install.sh ${your_code_dir}
+cd ${your_code_dir}
 mkdir -p data 
 ln -s ${your_coco_path} data/coco
 ```
-where `your_coco_path` is the location of extracted coco dataset on your server. For more information, you may refer to [getting started](https://github.com/open-mmlab/mmdetection/blob/master/docs/get_started.md)
+where `your_code_dir` is your code path and `your_coco_path` is the location of extracted coco dataset on your server. For more information, you may refer to [getting started](https://github.com/open-mmlab/mmdetection/blob/master/docs/get_started.md)
 - ### For testing
 ```shell
 bash tools/dist_test.sh ${selected_config} 8
