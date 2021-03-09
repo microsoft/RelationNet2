@@ -13,12 +13,12 @@ similar as that in Transformer to bridge other representations into a typical ob
 
 ## Main Results:
 
-|Model|mAP|AP50|AP75|Link|
-|----|----|---|---|---|
-|[retinanet_bvr_r50](configs/bvr/retinanet_r50_fpn_relation_coco_1x.py)|0.385 |0.591 |0.409|[Google](https://drive.google.com/file/d/1iKygKRi6EmqRsEQgBhJTfToWweVXEltB/view?usp=sharing)|
-|[retinanet_bvr_x101_dcn](configs/bvr/retinanet_x101_dcn_fpn_relation_coco_2x.py)|0.465| 0.663| 0.506|[Google](https://drive.google.com/file/d/1YyAG9OAjkeWStGkM5kLy6l95tXEa_E_b/view?usp=sharing)|
-|[fcos_bvr_x101_dcn](configs/bvr/fcos_x101_dcn_fpn_relation_coco_2x.py)|0.487| 0.680| 0.529|[Google](https://drive.google.com/file/d/1IT1YBnNLrGQs-Be_drfF2ntEq4OjtCaO/view?usp=sharing)|
-|[atss_bvr_x101_dcn](configs/bvr/atss_x101_dcn_fpn_relation_coco_2x.py)|0.506 |0.695| 0.553|[Google](https://drive.google.com/file/d/16kTxTPGIN4O4wFHKhJMdFP_rlZ7eXde9/view?usp=sharing)|
+|Model|MS Train|MS Test|mAP|AP50|AP75|Link|
+|----|-------|-----|----|---|---|---|
+|[retinanet_bvr_r50](configs/bvr/retinanet_r50_fpn_relation_coco_1x.py)|N|N|0.385 |0.591 |0.409|[Google](https://drive.google.com/file/d/1iKygKRi6EmqRsEQgBhJTfToWweVXEltB/view?usp=sharing)|
+|[retinanet_bvr_x101_dcn](configs/bvr/retinanet_x101_dcn_fpn_relation_coco_2x.py)|Y|N|0.465| 0.663| 0.506|[Google](https://drive.google.com/file/d/1YyAG9OAjkeWStGkM5kLy6l95tXEa_E_b/view?usp=sharing)|
+|[fcos_bvr_x101_dcn](configs/bvr/fcos_x101_dcn_fpn_relation_coco_2x.py)|Y|N|0.487| 0.680| 0.529|[Google](https://drive.google.com/file/d/1IT1YBnNLrGQs-Be_drfF2ntEq4OjtCaO/view?usp=sharing)|
+|[atss_bvr_x101_dcn](configs/bvr/atss_x101_dcn_fpn_relation_coco_2x.py)|Y|N|0.506 |0.695| 0.553|[Google](https://drive.google.com/file/d/16kTxTPGIN4O4wFHKhJMdFP_rlZ7eXde9/view?usp=sharing)|
 ## How to use it
 - ### Install it
 ```shell
