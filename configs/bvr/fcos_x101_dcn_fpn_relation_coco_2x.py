@@ -210,11 +210,11 @@ model = dict(
         cls_keypoint_cfg=dict(
             keypoint_types=['center'],
             with_key_score=False,
-            with_relation=False),
+            with_relation=True),
         reg_keypoint_cfg=dict(
             keypoint_types=['top_left_corner', 'bottom_right_corner'],
             with_key_score=False,
-            with_relation=False),
+            with_relation=True),
         keypoint_cfg=dict(max_keypoint_num=20, keypoint_score_thr=0.0),
         feature_selection_cfg=dict(
             selection_method='index',
